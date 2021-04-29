@@ -6,6 +6,7 @@ use App\AttrValues;
 use App\DocumentType;
 use App\Dossier;
 use App\File;
+use App\Http\Controllers\FileRolesController;
 use App\RelFiles;
 use App\Source;
 use Illuminate\Support\Facades\Route;
