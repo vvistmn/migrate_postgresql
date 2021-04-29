@@ -9,8 +9,10 @@ class FileExtension extends Model
 {
     protected $table = 'file_extensions';
     protected $primaryKey = 'fe_id';
-    public $timestamps = false;
     protected $guarded = [];
+
+    public $timestamps = false;
+
 
     public function files()
     {

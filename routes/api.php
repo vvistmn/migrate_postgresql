@@ -21,3 +21,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::resource('file/roles', 'FileRolesController');
 Route::resource('file/extensions', 'FileExtensionsController');
+Route::resource('document-type', 'DocumentTypeController');

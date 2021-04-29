@@ -7,7 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 class DocumentType extends Model
 {
     protected $table = 'document_types';
+    protected $primaryKey = 'dt_id';
     protected $guarded = [];
+    
+    public $timestamps = false;
 
     public function eds()
     {

@@ -30,6 +30,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('extensions.index')}}">FileExtensions</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('document-type.index')}}">DocumentType</a>
+                        </li>
                     </ul>
                 </div>
             </nav>

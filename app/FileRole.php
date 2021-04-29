@@ -9,8 +9,9 @@ class FileRole extends Model
 {
     protected $table = 'file_roles';
     protected $primaryKey = 'fr_id';
-    public $timestamps = false;
     protected $guarded = [];
+
+    public $timestamps = false;
 
     public function files()
     {
