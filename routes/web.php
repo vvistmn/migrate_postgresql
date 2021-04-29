@@ -38,3 +38,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('file/roles', 'FileRolesController');
+Route::resource('file/extensions', 'FileExtensionsController');
+Route::resource('document-type', 'DocumentTypeController');
+Route::resource('attrs', 'AttrController');

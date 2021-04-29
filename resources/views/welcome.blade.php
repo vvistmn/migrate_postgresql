@@ -33,6 +33,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('document-type.index')}}">DocumentType</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('attrs.index')}}">Attr</a>
+                        </li>
                     </ul>
                 </div>
             </nav>

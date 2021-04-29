@@ -18,7 +18,4 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-
-Route::resource('file/roles', 'FileRolesController');
-Route::resource('file/extensions', 'FileExtensionsController');
-Route::resource('document-type', 'DocumentTypeController');
+    
