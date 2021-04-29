@@ -22,15 +22,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $attr = Attr::all();
-    $attrValues = AttrValues::all();
-    $eDs = ED::all();
-    $documentType = DocumentType::all();
-    $source = Source::all();
-    $dossiers = Dossier::all();
-    $files = File::all();
-    $relFiles = RelFiles::all();
+// Route::get('/', function () {
+//     $attr = Attr::all();
+//     $attrValues = AttrValues::all();
+//     $eDs = ED::all();
+//     $documentType = DocumentType::all();
+//     $source = Source::all();
+//     $dossiers = Dossier::all();
+//     $files = File::all();
+//     $relFiles = RelFiles::all();
 
-    return view('welcome', compact('attr', 'attrValues', 'eDs', 'documentType', 'source', 'dossiers', 'files', 'relFiles'));
+//     return view('welcome', compact('attr', 'attrValues', 'eDs', 'documentType', 'source', 'dossiers', 'files', 'relFiles'));
+// });
+
+Route::get('/', function () {
+    return view('welcome');
 });
